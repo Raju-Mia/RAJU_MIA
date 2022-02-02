@@ -85,3 +85,22 @@ ul.topnav li.active {float: right;}
   ul.topnav li {float: none;}
 }
 /*end nevbar */
+
+
+
+
+/*<!-- SKILLS SECTION START Here -->*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+
+/*<!-- SKILLS SECTION END Here -->*/
