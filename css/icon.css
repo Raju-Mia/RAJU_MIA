@@ -1,0 +1,61 @@
+.icons{
+	/*we need to full div a block eliment otherwise picure will be distroy*/
+	overflow: hidden;
+}
+.icons ul{
+	margin: 0;
+	padding: 0;
+	
+}
+.icons ul li{
+	list-style-type: none;
+	float: left;
+	margin-right: 10px;
+
+	/*image possition set*/
+	position: relative;
+	top: 50%;
+	left: 50%;
+
+}
+.icons ul li:last-child{
+	margin-right: 0;
+
+}
+.icons ul li a{
+	background-image: url('icon.png');
+
+	width: 38px;
+	height: 38px;
+
+	/*display inline block use na korle picture show korbe na */
+	display: inline-block;
+	background-repeat: no-repeat;
+	border: 2px solid;
+	border-radius: 50px;
+	transition: 1s;
+
+
+	/*defalt backgroud image possition=== na use korlew pblm nai*/
+	background-position: 0 0;
+}
+/*---------1st possition fixed the icon and 2nd fixed hover icon*/
+.icons ul li:hover:nth-child(1) a{
+	background-position: 0 -39px;
+}
+
+/*---------1st possition fixed the icon and 2nd fixed hover icon*/
+.icons ul li:nth-child(2) a{
+	background-position: -78px 0px;
+}
+.icons ul li:hover:nth-child(2) a{
+	background-position: -78px -39px;
+}
+
+/*---------ast possition fixed the icon and 2nd fixed hover icon*/
+.icons ul li:nth-child(3) a{
+	background-position: -156px 0px;
+}
+.icons ul li:hover:nth-child(3) a{
+	background-position: -157px -39px;
+}

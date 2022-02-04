@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.column_footer {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 200px;
+  text-align: center;
+  color: #E5EDF0;
+
+}
+
+.row_footer:after {
+  content: "";
+  display: table;
+  clear: both; 
+}
+.footer_class {
+  background-color: #3F1911;
+  margin-top: 300px;
+}
+
+.column_footer h2 {
+  font-size: 25px;
+}
+
+.column_footer p {
+  font-size: 15px;
+  font-family: sans-serif;
+  font-style: italic;
+}
