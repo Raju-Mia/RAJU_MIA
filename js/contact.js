@@ -7,7 +7,7 @@ function validateForm() {
     var message = document.forms["myForm"]["message"];
 
     if (name.value == "") {
-        document.getElementById("errorname").innerHTML = "plx enter valid name";
+        document.getElementById("errorname").innerHTML = "plz Enter valid Name";
         name.focus();
         return false;
     } else {
@@ -15,26 +15,26 @@ function validateForm() {
     }
 
     if (email.value == "") {
-        document.getElementById("erroremail").innerHTML = "plz valid email";
+        document.getElementById("erroremail").innerHTML = "plz Enter valid email";
         email.focus();
         return false;
     } else {
         document.getElementById("erroremail").innerHTML = "";
     }
     if (email.value.indexOf("@", 0) < 0) {
-        document.getElementById("erroremail").innerHTML = "vaild email plz2";
+        document.getElementById("erroremail").innerHTML = "plz vaild Enter email";
         email.focus();
         return false;
     }
     if (email.value.indexOf(".", 0) < 0) {
-        document.getElementById("erroremail").innerHTML = "vaild plz 3 "
+        document.getElementById("erroremail").innerHTML = "vaild plz "
         email.focus();
         return false;
 
     }
 
     if (message.value == "") {
-        document.getElementById("errormsg").innerHTML = "valid message";
+        document.getElementById("errormsg").innerHTML = "plz-Enter valid message";
         message.focus();
         return false;
     } else {
