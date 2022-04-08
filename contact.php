@@ -2,6 +2,9 @@
 
 <head>
   <style>
+    body {
+      background: #1952b4cc;
+    }
     .center {
       margin-left: auto;
       margin-right: auto;
