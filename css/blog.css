@@ -1,7 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
 .container {
     width: 1171px;
     margin: 0 auto;
-    background: #fff;
+    background: #1952b4cc;
 }
 
 .nevbar {

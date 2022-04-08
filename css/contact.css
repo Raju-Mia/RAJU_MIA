@@ -1,3 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #1952b4cc;
+}
+
 .header h1 {
     margin-top: 40px;
     text-align: center;

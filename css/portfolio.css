@@ -1,102 +1,120 @@
-.portfolio {
-	height: 100%;
-    width: 100% ;
-	display: block;
+* {
+    box-sizing: border-box;
+}
 
+.portfolio {
+    height: 100%;
+    width: 100%;
+    display: block;
 }
 
 div.gallery {
-  	border: 1px solid #ccc;
+    border: 1px solid #ccc;
+    border-radius: 20px;
 }
 
 div.gallery:hover {
-  	border: 1px solid #777;
+    border: 1px solid #777;
+    border-radius: 20px;
+    background-color: #fefeff;
 }
 
 div.gallery img {
-  	width: 100%;
-  	height: auto;
+    width: 100%;
+    height: auto;
 }
 
 div.desc {
-	color: white;
-  	padding: 15px;
-  	text-align: center;
-}
-
-* {
-  	box-sizing: border-box;
+    color: #f74926;
+    ;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .responsive {
-  	padding: 5px 20px;
-  	float: left;
-  	width: 24.99999%;
+    padding: 5px 20px;
+    float: left;
+    width: 24.99999%;
 }
 
 @media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
 }
 
 @media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
+    .responsive {
+        width: 100%;
+    }
 }
 
 .portfolio_header {
-	color: #EEFFFC;
-	text-align: center;
-	font-size: 40px;
-	margin-top: 10px;
-	padding: 10px;
-	text-decoration: underline;
+    color: #f79e63;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 326px;
+    padding: 10px;
+    text-decoration: underline;
+}
 
-}
 .text_p1 {
-	text-align: center;
-	color: #63dcd1;
-	font-size: 20px;
+    text-align: center;
+    color: #63dcd1;
+    font-size: 20px;
 }
+
 .text_p2 {
-	text-align: center;
-	color: #63dcd1;
-	font-size: 20px;
+    text-align: center;
+    color: #63dcd1;
+    font-size: 20px;
 }
 
 
 /*BUTTON*/
+
 .button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 1px 3px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-  margin: 4px 2px;
-  cursor: none;
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 1px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: none;
 }
 
-.button1 { 
-  color: black; 
-  border: 2px solid #4CAF50;
+.button1 {
+    color: black;
+    border: 2px solid #4CAF50;
+    border-radius: 30px;
 }
+
 .button_center {
-	display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 25px;
     margin-bottom: 5px;
-
 }
 
-/*GITHUB LINK*/
-.githublink {
-	text-align: center;
 
+/*GITHUB LINK*/
+
+.githublink {
+    text-align: center;
+}
+
+.gallery img {
+    border-radius: 20px;
+}
+
+.philosopy_text p {
+    color: #f5f12f;
+    font-family: 'Courier New', Courier, monospace;
 }

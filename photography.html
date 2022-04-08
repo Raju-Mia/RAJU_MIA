@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/photography.css">
+    <title>RAJU MIA PHOTOGRAPHY</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#hide").click(function() {
+                $("p").hide();
+            });
+            $("#show").click(function() {
+                $("p").show();
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <div style="text-align:center" class="headtxt">
+        <h2>RAJU MIA PHOTOGRAPHY</h2>
+        <p>Make your Moments Gorgeous stay with us-Thanks.</p>
+    </div>
+
+    <!-- The four columns -->
+    <div class="row">
+        <div class="column">
+            <img src="img/ptg/1.jpg" alt="Worker Beauti" style="width: 100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="img/ptg/3.jpg" alt="Butterfly" style="width: 100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="img/ptg/5.jpg" alt="Childhood" style="width: 100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="img/ptg/2.jpg" alt="Lights Nature" style="width: 100%" onclick="myFunction(this);">
+        </div>
+    </div>
+
+    <div class="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <br>
+        <img id="expandedImg" style="width: 80%" class="center">
+
+        <div style="text-align:center">
+            <h2>Picture Name
+                <div id="imgtext"></div>
+            </h2>
+        </div>
+        <div id="imgtext"></div>
+
+        <div style="text-align:center" class=" textdown">
+            <h2>More Details </h2>
+            <p>HI, This page provide wildlife & Fine Art Photography.<br>This is a personal wildlife photography Page .</p>
+            <button id="hide" class="btn">Hide Details</button>
+            <button id="show" class="btn">Show Details</button>
+        </div><br><br>
+
+
+
+
+
+    </div>
+
+    <script>
+        function myFunction(imgs) {
+            var expandImg = document.getElementById("expandedImg");
+            var imgText = document.getElementById("imgtext");
+            expandImg.src = imgs.src;
+            imgText.innerHTML = imgs.alt;
+            expandImg.parentElement.style.display = "block";
+        }
+    </script>
+
+</body>
+
+</html>
